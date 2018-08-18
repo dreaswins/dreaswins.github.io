@@ -1,0 +1,76 @@
+body {
+    color: white;
+}
+
+.navigation{
+  padding-top:30px;
+  padding-bottom:30px;
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:1;
+}
+
+.navbar-right{
+  float:right;
+  padding-right:10%;
+}
+
+.navbar-right a{
+  text-decoration:none;
+  padding:10px;
+  color: #fff;
+  font-family:'Gloria Hallelujah';
+  font-weight:900;
+}
+
+.navbar-right a:hover{
+  text-decoration:underline;
+}
+.navbar-logo{
+  padding-left:10%;
+  font-family:'Gloria Hallelujah';
+  font-size:30px;
+  font-weight:bold;
+  text-decoration:none;
+  color:#fff;
+}
+
+.video-container {
+z-index: -100;
+width:100%;
+height:75%;
+overflow:hidden;
+position:absolute;
+top:0;
+left:0;
+}
+
+#video-bg{
+  position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+.w3-container{
+  font-family: 'Gloria Hallelujah', cursive;
+  color:#fff
+  margin-top: 80%;
+  margin-bottom: 40px;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: justify;
+
+}
+.w4-container{
+  font-family: 'Gloria Hallelujah', cursive;
+  color:#fff
+  margin-top: 1000px;
+  margin-bottom: 100px;
+  margin-right: 40%;
+  margin-left: 40%;
+  text-align: justify;
+}
